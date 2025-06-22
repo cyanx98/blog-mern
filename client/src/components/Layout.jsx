@@ -8,7 +8,9 @@ const Layout = () => {
     <>
       <Header />
       {/* Se renderizan los componentes hijos */}
-        <Outlet />
+      <Outlet />
+      {/* lorem x3000 para probar la navegacion */}
+
       <Footer />
     </>
   );
